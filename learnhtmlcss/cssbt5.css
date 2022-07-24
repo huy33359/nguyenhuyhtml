@@ -1,0 +1,46 @@
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #a3a3a3;
+    font-family: Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .photo{
+      padding: 10px 170px;
+  }
+  .learn{
+      margin: 20px auto;
+      width: 1000px;
+  }
+  .learn h2{
+      color:  #000;
+      font-size: 30px;
+      margin-bottom: 20px;
+  }
+  .description{
+      margin-bottom: 30px;
+  }
+ a{
+ background-color: #01bacf;
+ color: #fff;
+ display: inline-block;
+ font-size: 15px;
+ font-weight: 600;   
+ height: 48px;
+    line-height: 48px;
+    min-width: 90px;
+    padding: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.more a:hover {
+    background-color: #de4a1e;
+  }
